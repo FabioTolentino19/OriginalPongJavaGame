@@ -61,7 +61,7 @@ public class Ball {
 	}
 
 	public void render(Graphics g) {
-		g.setColor(Color.green);
+		g.setColor(Color.white);
 		g.fillRect((int)x,(int) y, width, height);
 	}
 }
